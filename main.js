@@ -12,6 +12,56 @@ try {
 }
 
 // ============================================================
+// DATA LAYER (Supabase / 国内 API 双模式)
+// 部署国内服务器后：USE_DOMESTIC_API 改 true，填上域名即可切换
+// ============================================================
+var USE_DOMESTIC_API = false;
+var DOMESTIC_API = '';   // 例如 'https://www.yourdomain.com/api'
+
+async function apiFetchResults() {
+  if (USE_DOMESTIC_API) {
+    var resp = await fetch(DOMESTIC_API + '/results', {
+      headers: { 'x-admin-password': ADMIN_PWD }
+    });
+    if (resp.status === 401) throw new Error('unauthorized');
+    if (!resp.ok) throw new Error('API error ' + resp.status);
+    return await resp.json();
+  }
+  if (!supabase) throw new Error('Database not connected');
+  var r = await supabase.from('marking_results').select('*').order('created_at', { ascending: false });
+  if (r.error) throw new Error(r.error.message);
+  return r.data || [];
+}
+
+async function apiInsertResult(rec) {
+  if (USE_DOMESTIC_API) {
+    var resp = await fetch(DOMESTIC_API + '/results', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(rec)
+    });
+    if (!resp.ok) console.error('API save error:', resp.status);
+    return;
+  }
+  var r = await supabase.from('marking_results').insert(rec);
+  if (r.error) console.error('Supabase save error:', r.error);
+}
+
+async function apiCheckAdminPassword(pwd) {
+  if (USE_DOMESTIC_API) {
+    try {
+      var resp = await fetch(DOMESTIC_API + '/auth', {
+        headers: { 'x-admin-password': pwd }
+      });
+      return resp.ok;
+    } catch(e) {
+      return null; // 网络错误
+    }
+  }
+  return pwd === ADMIN_PWD;
+}
+
+// ============================================================
 // STATE
 // ============================================================
 var currentUser = '';
@@ -229,16 +279,25 @@ function getSubjectForPaper(paperKey) {
   return null;
 }
 
-function doAdminLogin() {
+async function doAdminLogin() {
   var pwd = document.getElementById('adminPwdInput').value;
-  if (pwd === ADMIN_PWD) {
-    document.getElementById('adminErrorMsg').classList.add('hidden');
+  var ok = await apiCheckAdminPassword(pwd);
+  var errEl = document.getElementById('adminErrorMsg');
+  if (ok === null) {
+    errEl.textContent = 'Cannot connect to server, please try again later';
+    errEl.classList.remove('hidden');
+    return;
+  }
+  if (ok) {
+    if (USE_DOMESTIC_API) ADMIN_PWD = pwd;
+    errEl.classList.add('hidden');
     currentUser = 'Admin';
     isAdmin = true;
     currentSubject = 'Dashboard';
     showSelectionPage();
   } else {
-    document.getElementById('adminErrorMsg').classList.remove('hidden');
+    errEl.textContent = 'Incorrect password';
+    errEl.classList.remove('hidden');
   }
 }
 
@@ -264,18 +323,13 @@ function adminFormatTime(secs) {
 async function loadAdminData(subjectFilter) {
   document.getElementById('resultsTable').innerHTML = '<div class="loading">Loading...</div>';
 
-  if (!supabase) {
-    document.getElementById('resultsTable').innerHTML = '<div class="loading" style="color:#e74c3c;">Database not connected</div>';
+  try {
+    allResults = await apiFetchResults();
+  } catch(e) {
+    var msg = e.message === 'unauthorized' ? 'Password verification failed, please login again' : e.message;
+    document.getElementById('resultsTable').innerHTML = '<div class="loading" style="color:#e74c3c;">Error: ' + msg + '</div>';
     return;
   }
-
-  var resp = await supabase.from('marking_results').select('*').order('created_at', { ascending: false });
-  if (resp.error) {
-    document.getElementById('resultsTable').innerHTML = '<div class="loading" style="color:#e74c3c;">Error: ' + resp.error.message + '</div>';
-    return;
-  }
-
-  allResults = resp.data || [];
 
   // Filter by subject if requested
   if (subjectFilter) {
@@ -679,8 +733,8 @@ function submitMarking() {
   const officialTotal = pinfo.feedback && pinfo.feedback[currentScript]
     ? pinfo.feedback[currentScript].totalMark : null;
 
-  // Save to Supabase
-  supabase.from('marking_results').insert({
+  // 保存批卷结果（自动按模式路由到 Supabase 或国内 API）
+  apiInsertResult({
     teacher_name: currentUser,
     paper: currentPaper,
     script: currentScript,
@@ -688,9 +742,7 @@ function submitMarking() {
     official_total: officialTotal,
     full_mark: pinfo.fullMark,
     time_taken: timerSeconds,
-    results: results,
-  }).then(({ error }) => {
-    if (error) console.error('Supabase save error:', error);
+    results: results
   });
 
   const saveData = {
