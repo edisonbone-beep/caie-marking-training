@@ -763,15 +763,9 @@ var PAPERS = {
           },
           {
             "label": "7(c)",
-            "officialMark": null,
-            "maxMark": null,
-            "commentary": "This candidate had an answer of 7.5V for question"
-          },
-          {
-            "label": "7(b)(i)",
             "officialMark": 2,
             "maxMark": 2,
-            "commentary": "and this is the answer they have used in their calculation. So, using the ecf of 7.5V the candidate has correctly calculated the reading on the voltmeter when the switch is closed to be 5V (7.5 x 40/60) and so is awarded the A2 marks."
+            "commentary": "This candidate had an answer of 7.5V for question 7(b)(i) and this is the answer they have used in their calculation. So, using the ecf of 7.5V the candidate has correctly calculated the reading on the voltmeter when the switch is closed to be 5V (7.5 x 40/60) and so is awarded the A2 marks."
           },
           {
             "label": "8(a)",
@@ -992,7 +986,7 @@ var PAPERS = {
             "label": "7(a)",
             "officialMark": 0,
             "maxMark": 2,
-            "commentary": "The candidate has described a potential divider a connection to reduce the voltage, which is incorrect, and so marks are awarded."
+            "commentary": "The candidate has described a potential divider a connection to reduce the voltage, which is incorrect, and so no marks are awarded."
           },
           {
             "label": "7(b)(i)",
@@ -1008,21 +1002,9 @@ var PAPERS = {
           },
           {
             "label": "7(c)",
-            "officialMark": null,
-            "maxMark": null,
-            "commentary": "The candidate has given the reading on the voltmeter when the switch is closed to be 10V and so is awarded the A2 marks. It is assumed that the candidate started the calculation again and did not use their values from"
-          },
-          {
-            "label": "7(b)(i)",
-            "officialMark": null,
-            "maxMark": null,
-            "commentary": "and"
-          },
-          {
-            "label": "7(b)(ii)",
             "officialMark": 2,
             "maxMark": 2,
-            "commentary": "in this calculation."
+            "commentary": "The candidate has given the reading on the voltmeter when the switch is closed to be 10V and so is awarded the A2 marks. It is assumed that the candidate started the calculation again and did not use their values from (b)(i) and (b)(ii) in this calculation."
           },
           {
             "label": "8(a)",
@@ -1189,7 +1171,7 @@ var PAPERS = {
     "hasFb": true,
     "feedback": {
       "E": {
-        "totalMark": 39,
+        "totalMark": 38,
         "questions": [
           {
             "label": "1(a)",
@@ -1338,7 +1320,7 @@ var PAPERS = {
         ]
       },
       "F": {
-        "totalMark": 36,
+        "totalMark": 35,
         "questions": [
           {
             "label": "1(a)",
@@ -1854,9 +1836,15 @@ var PAPERS = {
           },
           {
             "label": "1(b)(iii)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "This correct answer gains full credit."
+          },
+          {
+            "label": "1(c)",
             "officialMark": 0,
             "maxMark": 2,
-            "commentary": "This correct answer gains full credit. 2/2 1 (c) The candidate has not recognized that the resistive force depends on velocity and thus decreases. Their answer which is describing terminal velocity is incorrect as it applies to a different situation."
+            "commentary": "The candidate has not recognized that the resistive force depends on velocity and thus decreases. Their answer which is describing terminal velocity is incorrect as it applies to a different situation."
           },
           {
             "label": "2(a)",
@@ -1945,7 +1933,7 @@ var PAPERS = {
           {
             "label": "5(b)",
             "officialMark": 0,
-            "maxMark": 2,
+            "maxMark": 1,
             "commentary": "While most of the wave might just be considered to be sinusoidal, it does not pass through point A"
           },
           {
@@ -2109,13 +2097,13 @@ var PAPERS = {
             "commentary": "The candidate has not realized that P is the gradient (not the mass), and has given incorrect units for both P and Q, so does not score either mark."
           },
           {
-            "label": "2(a)",
+            "label": "2(a)(i)",
             "officialMark": 1,
             "maxMark": 1,
             "commentary": "(i) The candidate’s value for d is within the required range and to the nearest mm."
           },
           {
-            "label": "2(a)",
+            "label": "2(a)(ii)",
             "officialMark": 1,
             "maxMark": 1,
             "commentary": "(ii) This is a correct calculation – 2 or 3 s.f. would be acceptable here as it is an intermediate value"
@@ -2625,1102 +2613,1102 @@ var PAPERS = {
     }
   },
   "al_p2": {
-  "category": "AL",
-  "subject": "9702 Physics",
-  "paper": "Paper 2 (FOA2)",
-  "fullMark": 60,
-  "msImages": [
-    "img/al_p2_ms_1.jpg",
-    "img/al_p2_ms_2.jpg",
-    "img/al_p2_ms_3.jpg",
-    "img/al_p2_ms_4.jpg",
-    "img/al_p2_ms_5.jpg",
-    "img/al_p2_ms_6.jpg",
-    "img/al_p2_ms_7.jpg",
-    "img/al_p2_ms_8.jpg",
-    "img/al_p2_ms_9.jpg",
-    "img/al_p2_ms_10.jpg",
-    "img/al_p2_ms_11.jpg",
-    "img/al_p2_ms_12.jpg"
-  ],
-  "scripts": {
-    "A": {
-      "prefix": "al_p2_sA",
-      "pages": 15,
-      "images": [
-        "img/al_p2_sA_1.jpg",
-        "img/al_p2_sA_2.jpg",
-        "img/al_p2_sA_3.jpg",
-        "img/al_p2_sA_4.jpg",
-        "img/al_p2_sA_5.jpg",
-        "img/al_p2_sA_6.jpg",
-        "img/al_p2_sA_7.jpg",
-        "img/al_p2_sA_8.jpg",
-        "img/al_p2_sA_9.jpg",
-        "img/al_p2_sA_10.jpg",
-        "img/al_p2_sA_11.jpg",
-        "img/al_p2_sA_12.jpg",
-        "img/al_p2_sA_13.jpg",
-        "img/al_p2_sA_14.jpg",
-        "img/al_p2_sA_15.jpg"
-      ]
+    "category": "AL",
+    "subject": "9702 Physics",
+    "paper": "Paper 2 (FOA2)",
+    "fullMark": 60,
+    "msImages": [
+      "img/al_p2_ms_1.jpg",
+      "img/al_p2_ms_2.jpg",
+      "img/al_p2_ms_3.jpg",
+      "img/al_p2_ms_4.jpg",
+      "img/al_p2_ms_5.jpg",
+      "img/al_p2_ms_6.jpg",
+      "img/al_p2_ms_7.jpg",
+      "img/al_p2_ms_8.jpg",
+      "img/al_p2_ms_9.jpg",
+      "img/al_p2_ms_10.jpg",
+      "img/al_p2_ms_11.jpg",
+      "img/al_p2_ms_12.jpg"
+    ],
+    "scripts": {
+      "A": {
+        "prefix": "al_p2_sA",
+        "pages": 15,
+        "images": [
+          "img/al_p2_sA_1.jpg",
+          "img/al_p2_sA_2.jpg",
+          "img/al_p2_sA_3.jpg",
+          "img/al_p2_sA_4.jpg",
+          "img/al_p2_sA_5.jpg",
+          "img/al_p2_sA_6.jpg",
+          "img/al_p2_sA_7.jpg",
+          "img/al_p2_sA_8.jpg",
+          "img/al_p2_sA_9.jpg",
+          "img/al_p2_sA_10.jpg",
+          "img/al_p2_sA_11.jpg",
+          "img/al_p2_sA_12.jpg",
+          "img/al_p2_sA_13.jpg",
+          "img/al_p2_sA_14.jpg",
+          "img/al_p2_sA_15.jpg"
+        ]
+      },
+      "B": {
+        "prefix": "al_p2_sB",
+        "pages": 15,
+        "images": [
+          "img/al_p2_sB_1.jpg",
+          "img/al_p2_sB_2.jpg",
+          "img/al_p2_sB_3.jpg",
+          "img/al_p2_sB_4.jpg",
+          "img/al_p2_sB_5.jpg",
+          "img/al_p2_sB_6.jpg",
+          "img/al_p2_sB_7.jpg",
+          "img/al_p2_sB_8.jpg",
+          "img/al_p2_sB_9.jpg",
+          "img/al_p2_sB_10.jpg",
+          "img/al_p2_sB_11.jpg",
+          "img/al_p2_sB_12.jpg",
+          "img/al_p2_sB_13.jpg",
+          "img/al_p2_sB_14.jpg",
+          "img/al_p2_sB_15.jpg"
+        ]
+      }
     },
-    "B": {
-      "prefix": "al_p2_sB",
-      "pages": 15,
-      "images": [
-        "img/al_p2_sB_1.jpg",
-        "img/al_p2_sB_2.jpg",
-        "img/al_p2_sB_3.jpg",
-        "img/al_p2_sB_4.jpg",
-        "img/al_p2_sB_5.jpg",
-        "img/al_p2_sB_6.jpg",
-        "img/al_p2_sB_7.jpg",
-        "img/al_p2_sB_8.jpg",
-        "img/al_p2_sB_9.jpg",
-        "img/al_p2_sB_10.jpg",
-        "img/al_p2_sB_11.jpg",
-        "img/al_p2_sB_12.jpg",
-        "img/al_p2_sB_13.jpg",
-        "img/al_p2_sB_14.jpg",
-        "img/al_p2_sB_15.jpg"
-      ]
+    "hasFb": true,
+    "feedback": {
+      "A": {
+        "totalMark": 48,
+        "questions": [
+          {
+            "label": "1(a)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Correct base units and substitution. Both marks awarded."
+          },
+          {
+            "label": "1(b)",
+            "officialMark": 3,
+            "maxMark": 3,
+            "commentary": "Correct solution for liquid density using upthrust = Vρg. Volume calculated correctly. Answer rounded up to 1300 kgm⁻³ per mark scheme."
+          },
+          {
+            "label": "1(c)(i)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Three arrows on sphere are correct in direction and labeling."
+          },
+          {
+            "label": "1(c)(ii)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Viscous force found via difference between upthrust and weight. Equation used correctly. Calculation fully correct."
+          },
+          {
+            "label": "2(a)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Answer insufficient because it didn’t clarify that absence of force applies only horizontally — gravity or other components would cause acceleration."
+          },
+          {
+            "label": "2(b)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Correct solution for time from P to Q. ‘Show that’ question requiring clear working; full evidence shown."
+          },
+          {
+            "label": "2(c)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Candidate used appropriate equation of motion and arrived at correct answer."
+          },
+          {
+            "label": "2(d)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Correct explanation about displacement vs. path length (shortest distance vs. curved path)."
+          },
+          {
+            "label": "2(e)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Fully correct solution using horizontal/vertical distances and Pythagoras’ Theorem."
+          },
+          {
+            "label": "3(a)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Correct substitution and final answer to minimum of 2 significant figures. Solution clearly laid out."
+          },
+          {
+            "label": "3(b)(i)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Correct working and answer."
+          },
+          {
+            "label": "3(b)(ii)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Correct working and answer."
+          },
+          {
+            "label": "3(c)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "No statement of force magnitude or explanation linking to Newton’s third law."
+          },
+          {
+            "label": "3(d)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Fully correct pressure calculation."
+          },
+          {
+            "label": "4(a)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Incorrect physics: subtracted force from energy in denominator."
+          },
+          {
+            "label": "4(b)",
+            "officialMark": 0,
+            "maxMark": 2,
+            "commentary": "Same error as 4a). No credit."
+          },
+          {
+            "label": "4(c)",
+            "officialMark": 0,
+            "maxMark": 2,
+            "commentary": "Inappropriate equation with incorrect substitution."
+          },
+          {
+            "label": "4(d)(i)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Solution fully correct."
+          },
+          {
+            "label": "4(d)(ii)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Solution fully correct."
+          },
+          {
+            "label": "4(d)(iii)",
+            "officialMark": 0,
+            "maxMark": 2,
+            "commentary": "Line drawn starts at origin but is straight, not curved. First mark is an M mark meaning no further credit even if second point is correct."
+          },
+          {
+            "label": "5(a)(i)",
+            "officialMark": 1,
+            "maxMark": 2,
+            "commentary": "Second mark for ‘same frequency’ gained, but no mention of wave overlap needed."
+          },
+          {
+            "label": "5(a)(ii)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Incorrect answer."
+          },
+          {
+            "label": "5(b)(i)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Correct calculation and answer using correct Doppler formula."
+          },
+          {
+            "label": "5(b)(ii)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Marked correct with benefit of doubt. Interpretation suggests source now travelling at reduced constant speed, which contradicts description."
+          },
+          {
+            "label": "5(c)(i)",
+            "officialMark": 3,
+            "maxMark": 3,
+            "commentary": "Not exact solution per mark scheme, but correct answer reached, so full credit given."
+          },
+          {
+            "label": "5(c)(ii)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Incorrect answer with no working to discover cause of error."
+          },
+          {
+            "label": "6(a)(i)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Three possible formulas for electrical power; this one chosen is most straightforward and correct."
+          },
+          {
+            "label": "6(a)(ii)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Method is perfectly OK — charge found over 50 s, converted to coulombs then electronic charges."
+          },
+          {
+            "label": "6(a)(iii)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Another correct solution."
+          },
+          {
+            "label": "6(b)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "A correct solution. Candidate has converted mm² to m² for the area without making any errors."
+          },
+          {
+            "label": "6(c)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "This is a logical and progressive account. First mark is an M mark, so it must be gained for credit."
+          },
+          {
+            "label": "6(d)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "This is the correct argument, and gains both the marks."
+          },
+          {
+            "label": "7(a)(i)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "This is correct and gains the mark, but the full answer should be ‘electron neutrino’."
+          },
+          {
+            "label": "7(a)(ii)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Both numbers are correct."
+          },
+          {
+            "label": "7(a)(iii)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "This is the correct change, since uud (proton) is changed to udd (neutron)."
+          },
+          {
+            "label": "7(b)(i)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "This is the correct quark charge."
+          },
+          {
+            "label": "7(b)(ii)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "This is one of several correct alternatives."
+          }
+        ]
+      },
+      "B": {
+        "totalMark": 21,
+        "questions": [
+          {
+            "label": "1(a)",
+            "officialMark": 0,
+            "maxMark": 2,
+            "commentary": "Failure to give base units for F_V."
+          },
+          {
+            "label": "1(b)",
+            "officialMark": 0,
+            "maxMark": 3,
+            "commentary": "No attempt to find sphere volume. Misidentified quantity P as viscous force. Formula incorrect."
+          },
+          {
+            "label": "1(c)(i)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Three arrows on sphere are correctly directed and labelled."
+          },
+          {
+            "label": "1(c)(ii)",
+            "officialMark": 0,
+            "maxMark": 2,
+            "commentary": "Wrong answer with no working."
+          },
+          {
+            "label": "2(a)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Missed that only horizontal direction has no force on water droplet; gravity acts in other directions."
+          },
+          {
+            "label": "2(b)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Correct solution for time from P to Q. Full working shown."
+          },
+          {
+            "label": "2(c)",
+            "officialMark": 0,
+            "maxMark": 2,
+            "commentary": "Incorrect physics — assumes constant velocity for falling water vertically, which is false."
+          },
+          {
+            "label": "2(d)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Displacement between P and Q is shorter than curved path taken, but the mark was not awarded."
+          },
+          {
+            "label": "2(e)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Correct calculation but height h was found incorrectly in part c). Value carried forward, so full credit possible despite earlier error."
+          },
+          {
+            "label": "3(a)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "‘Show that’ question; solution clearly set out with substitution and final answer ≥ 2SF."
+          },
+          {
+            "label": "3(b)(i)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Well-explained correct solution."
+          },
+          {
+            "label": "3(b)(ii)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Incorrect physics — defines force as change of momentum instead of rate of change of momentum."
+          },
+          {
+            "label": "3(c)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Correctly states force equals previous calculation but omits mention of Newton’s third law."
+          },
+          {
+            "label": "3(d)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Correct pressure calculation. The 6 N force was an ECF from part b), and no further errors exist."
+          },
+          {
+            "label": "4(a)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Incorrect ratio due to multiplying force by energy in numerator (physically invalid)."
+          },
+          {
+            "label": "4(b)",
+            "officialMark": 0,
+            "maxMark": 2,
+            "commentary": "Incorrect, no marks given."
+          },
+          {
+            "label": "4(c)",
+            "officialMark": 0,
+            "maxMark": 2,
+            "commentary": "Used constant velocity relationship incorrectly for this problem."
+          },
+          {
+            "label": "4(d)(i)",
+            "officialMark": 0,
+            "maxMark": 2,
+            "commentary": "Incorrect formula, calculation, and answer."
+          },
+          {
+            "label": "4(d)(ii)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Fully correct."
+          },
+          {
+            "label": "4(d)(iii)",
+            "officialMark": 1,
+            "maxMark": 2,
+            "commentary": "Curved line starting at origin earns first mark, but gradient decreasing (should be increasing) means second mark not given."
+          },
+          {
+            "label": "5(a)(i)",
+            "officialMark": 1,
+            "maxMark": 2,
+            "commentary": "Second mark awarded for ‘same frequency’, but no credit for wave direction requirement (waves must travel in opposite directions)."
+          },
+          {
+            "label": "5(a)(ii)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "180° is not the right answer."
+          },
+          {
+            "label": "5(b)(i)",
+            "officialMark": 0,
+            "maxMark": 2,
+            "commentary": "Correct formula quoted, but incorrect substitution (used f_s instead of f_0, which is what the question asks for). No credit."
+          },
+          {
+            "label": "5(b)(ii)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "‘No change’ is wrong; if true, pedestrian wouldn’t hear increasing frequency."
+          },
+          {
+            "label": "5(c)(i)",
+            "officialMark": 0,
+            "maxMark": 3,
+            "commentary": "Wrong answer, no working — impossible to investigate cause."
+          },
+          {
+            "label": "5(c)(ii)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Wrong answer, no working — impossible to investigate cause."
+          },
+          {
+            "label": "6(a)(i)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Three possible formulas for electrical power; this one is most straightforward and correct."
+          },
+          {
+            "label": "6(a)(ii)",
+            "officialMark": 0,
+            "maxMark": 2,
+            "commentary": "No working shown, though heading towards right solution."
+          },
+          {
+            "label": "6(a)(iii)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Correct solution using one of several valid methods."
+          },
+          {
+            "label": "6(b)",
+            "officialMark": 0,
+            "maxMark": 2,
+            "commentary": "No formula given; substitution reveals wrong relationship used. Physics is incorrect."
+          },
+          {
+            "label": "6(c)",
+            "officialMark": 1,
+            "maxMark": 2,
+            "commentary": "Candidate correctly identifies that increased diameter leads to lower resistance, but did not continue the argument."
+          },
+          {
+            "label": "6(d)",
+            "officialMark": 0,
+            "maxMark": 2,
+            "commentary": "This is an incorrect discussion, which cannot be awarded any credit."
+          },
+          {
+            "label": "7(a)(i)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "The proton is not a lepton."
+          },
+          {
+            "label": "7(a)(ii)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Both numbers are correct."
+          },
+          {
+            "label": "7(a)(iii)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "This is the correct change, since uud (proton) is changed to udd (neutron)."
+          },
+          {
+            "label": "7(b)(i)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "This is the correct quark charge."
+          },
+          {
+            "label": "7(b)(ii)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "This is an incorrect answer."
+          }
+        ]
+      }
     }
   },
-  "hasFb": true,
-  "feedback": {
-    "A": {
-      "totalMark": 48,
-      "questions": [
-        {
-          "label": "1(a)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Correct base units and substitution. Both marks awarded."
-        },
-        {
-          "label": "1(b)",
-          "officialMark": 3,
-          "maxMark": 3,
-          "commentary": "Correct solution for liquid density using upthrust = Vρg. Volume calculated correctly. Answer rounded up to 1300 kgm⁻³ per mark scheme."
-        },
-        {
-          "label": "1(c)(i)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Three arrows on sphere are correct in direction and labeling."
-        },
-        {
-          "label": "1(c)(ii)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Viscous force found via difference between upthrust and weight. Equation used correctly. Calculation fully correct."
-        },
-        {
-          "label": "2(a)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Answer insufficient because it didn’t clarify that absence of force applies only horizontally — gravity or other components would cause acceleration."
-        },
-        {
-          "label": "2(b)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Correct solution for time from P to Q. ‘Show that’ question requiring clear working; full evidence shown."
-        },
-        {
-          "label": "2(c)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Candidate used appropriate equation of motion and arrived at correct answer."
-        },
-        {
-          "label": "2(d)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Correct explanation about displacement vs. path length (shortest distance vs. curved path)."
-        },
-        {
-          "label": "2(e)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Fully correct solution using horizontal/vertical distances and Pythagoras’ Theorem."
-        },
-        {
-          "label": "3(a)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Correct substitution and final answer to minimum of 2 significant figures. Solution clearly laid out."
-        },
-        {
-          "label": "3(b)(i)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Correct working and answer."
-        },
-        {
-          "label": "3(b)(ii)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Correct working and answer."
-        },
-        {
-          "label": "3(c)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "No statement of force magnitude or explanation linking to Newton’s third law."
-        },
-        {
-          "label": "3(d)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Fully correct pressure calculation."
-        },
-        {
-          "label": "4(a)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Incorrect physics: subtracted force from energy in denominator."
-        },
-        {
-          "label": "4(b)",
-          "officialMark": 0,
-          "maxMark": 2,
-          "commentary": "Same error as 4a). No credit."
-        },
-        {
-          "label": "4(c)",
-          "officialMark": 0,
-          "maxMark": 2,
-          "commentary": "Inappropriate equation with incorrect substitution."
-        },
-        {
-          "label": "4(d)(i)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Solution fully correct."
-        },
-        {
-          "label": "4(d)(ii)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Solution fully correct."
-        },
-        {
-          "label": "4(d)(iii)",
-          "officialMark": 0,
-          "maxMark": 2,
-          "commentary": "Line drawn starts at origin but is straight, not curved. First mark is an M mark meaning no further credit even if second point is correct."
-        },
-        {
-          "label": "5(a)(i)",
-          "officialMark": 1,
-          "maxMark": 2,
-          "commentary": "Second mark for ‘same frequency’ gained, but no mention of wave overlap needed."
-        },
-        {
-          "label": "5(a)(ii)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Incorrect answer."
-        },
-        {
-          "label": "5(b)(i)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Correct calculation and answer using correct Doppler formula."
-        },
-        {
-          "label": "5(b)(ii)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Marked correct with benefit of doubt. Interpretation suggests source now travelling at reduced constant speed, which contradicts description."
-        },
-        {
-          "label": "5(c)(i)",
-          "officialMark": 3,
-          "maxMark": 3,
-          "commentary": "Not exact solution per mark scheme, but correct answer reached, so full credit given."
-        },
-        {
-          "label": "5(c)(ii)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Incorrect answer with no working to discover cause of error."
-        },
-        {
-          "label": "6(a)(i)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Three possible formulas for electrical power; this one chosen is most straightforward and correct."
-        },
-        {
-          "label": "6(a)(ii)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Method is perfectly OK — charge found over 50 s, converted to coulombs then electronic charges."
-        },
-        {
-          "label": "6(a)(iii)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Another correct solution."
-        },
-        {
-          "label": "6(b)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "A correct solution. Candidate has converted mm² to m² for the area without making any errors."
-        },
-        {
-          "label": "6(c)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "This is a logical and progressive account. First mark is an M mark, so it must be gained for credit."
-        },
-        {
-          "label": "6(d)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "This is the correct argument, and gains both the marks."
-        },
-        {
-          "label": "7(a)(i)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "This is correct and gains the mark, but the full answer should be ‘electron neutrino’."
-        },
-        {
-          "label": "7(a)(ii)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Both numbers are correct."
-        },
-        {
-          "label": "7(a)(iii)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "This is the correct change, since uud (proton) is changed to udd (neutron)."
-        },
-        {
-          "label": "7(b)(i)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "This is the correct quark charge."
-        },
-        {
-          "label": "7(b)(ii)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "This is one of several correct alternatives."
-        }
-      ]
-    },
-    "B": {
-      "totalMark": 21,
-      "questions": [
-        {
-          "label": "1(a)",
-          "officialMark": 0,
-          "maxMark": 2,
-          "commentary": "Failure to give base units for F_V."
-        },
-        {
-          "label": "1(b)",
-          "officialMark": 0,
-          "maxMark": 3,
-          "commentary": "No attempt to find sphere volume. Misidentified quantity P as viscous force. Formula incorrect."
-        },
-        {
-          "label": "1(c)(i)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Three arrows on sphere are correctly directed and labelled."
-        },
-        {
-          "label": "1(c)(ii)",
-          "officialMark": 0,
-          "maxMark": 2,
-          "commentary": "Wrong answer with no working."
-        },
-        {
-          "label": "2(a)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Missed that only horizontal direction has no force on water droplet; gravity acts in other directions."
-        },
-        {
-          "label": "2(b)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Correct solution for time from P to Q. Full working shown."
-        },
-        {
-          "label": "2(c)",
-          "officialMark": 0,
-          "maxMark": 2,
-          "commentary": "Incorrect physics — assumes constant velocity for falling water vertically, which is false."
-        },
-        {
-          "label": "2(d)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Displacement between P and Q is shorter than curved path taken, but the mark was not awarded."
-        },
-        {
-          "label": "2(e)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Correct calculation but height h was found incorrectly in part c). Value carried forward, so full credit possible despite earlier error."
-        },
-        {
-          "label": "3(a)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "‘Show that’ question; solution clearly set out with substitution and final answer ≥ 2SF."
-        },
-        {
-          "label": "3(b)(i)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Well-explained correct solution."
-        },
-        {
-          "label": "3(b)(ii)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Incorrect physics — defines force as change of momentum instead of rate of change of momentum."
-        },
-        {
-          "label": "3(c)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Correctly states force equals previous calculation but omits mention of Newton’s third law."
-        },
-        {
-          "label": "3(d)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Correct pressure calculation. The 6 N force was an ECF from part b), and no further errors exist."
-        },
-        {
-          "label": "4(a)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Incorrect ratio due to multiplying force by energy in numerator (physically invalid)."
-        },
-        {
-          "label": "4(b)",
-          "officialMark": 0,
-          "maxMark": 2,
-          "commentary": "Incorrect, no marks given."
-        },
-        {
-          "label": "4(c)",
-          "officialMark": 0,
-          "maxMark": 2,
-          "commentary": "Used constant velocity relationship incorrectly for this problem."
-        },
-        {
-          "label": "4(d)(i)",
-          "officialMark": 0,
-          "maxMark": 2,
-          "commentary": "Incorrect formula, calculation, and answer."
-        },
-        {
-          "label": "4(d)(ii)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Fully correct."
-        },
-        {
-          "label": "4(d)(iii)",
-          "officialMark": 1,
-          "maxMark": 2,
-          "commentary": "Curved line starting at origin earns first mark, but gradient decreasing (should be increasing) means second mark not given."
-        },
-        {
-          "label": "5(a)(i)",
-          "officialMark": 1,
-          "maxMark": 2,
-          "commentary": "Second mark awarded for ‘same frequency’, but no credit for wave direction requirement (waves must travel in opposite directions)."
-        },
-        {
-          "label": "5(a)(ii)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "180° is not the right answer."
-        },
-        {
-          "label": "5(b)(i)",
-          "officialMark": 0,
-          "maxMark": 2,
-          "commentary": "Correct formula quoted, but incorrect substitution (used f_s instead of f_0, which is what the question asks for). No credit."
-        },
-        {
-          "label": "5(b)(ii)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "‘No change’ is wrong; if true, pedestrian wouldn’t hear increasing frequency."
-        },
-        {
-          "label": "5(c)(i)",
-          "officialMark": 0,
-          "maxMark": 3,
-          "commentary": "Wrong answer, no working — impossible to investigate cause."
-        },
-        {
-          "label": "5(c)(ii)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Wrong answer, no working — impossible to investigate cause."
-        },
-        {
-          "label": "6(a)(i)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Three possible formulas for electrical power; this one is most straightforward and correct."
-        },
-        {
-          "label": "6(a)(ii)",
-          "officialMark": 0,
-          "maxMark": 2,
-          "commentary": "No working shown, though heading towards right solution."
-        },
-        {
-          "label": "6(a)(iii)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Correct solution using one of several valid methods."
-        },
-        {
-          "label": "6(b)",
-          "officialMark": 0,
-          "maxMark": 2,
-          "commentary": "No formula given; substitution reveals wrong relationship used. Physics is incorrect."
-        },
-        {
-          "label": "6(c)",
-          "officialMark": 1,
-          "maxMark": 2,
-          "commentary": "Candidate correctly identifies that increased diameter leads to lower resistance, but did not continue the argument."
-        },
-        {
-          "label": "6(d)",
-          "officialMark": 0,
-          "maxMark": 2,
-          "commentary": "This is an incorrect discussion, which cannot be awarded any credit."
-        },
-        {
-          "label": "7(a)(i)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "The proton is not a lepton."
-        },
-        {
-          "label": "7(a)(ii)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Both numbers are correct."
-        },
-        {
-          "label": "7(a)(iii)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "This is the correct change, since uud (proton) is changed to udd (neutron)."
-        },
-        {
-          "label": "7(b)(i)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "This is the correct quark charge."
-        },
-        {
-          "label": "7(b)(ii)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "This is an incorrect answer."
-        }
-      ]
-    }
-  }
-},
   "al_p3": {
-  "category": "AL",
-  "subject": "9702 Physics",
-  "paper": "Paper 3 (FOA2)",
-  "fullMark": 40,
-  "msImages": [
-    "img/al_p3_ms_1.jpg",
-    "img/al_p3_ms_2.jpg",
-    "img/al_p3_ms_3.jpg",
-    "img/al_p3_ms_4.jpg",
-    "img/al_p3_ms_5.jpg",
-    "img/al_p3_ms_6.jpg",
-    "img/al_p3_ms_7.jpg",
-    "img/al_p3_ms_8.jpg"
-  ],
-  "scripts": {
-    "C": {
-      "prefix": "al_p3_sC",
-      "pages": 13,
-      "images": [
-        "img/al_p3_sC_1.jpg",
-        "img/al_p3_sC_2.jpg",
-        "img/al_p3_sC_3.jpg",
-        "img/al_p3_sC_4.jpg",
-        "img/al_p3_sC_5.jpg",
-        "img/al_p3_sC_6.jpg",
-        "img/al_p3_sC_7.jpg",
-        "img/al_p3_sC_8.jpg",
-        "img/al_p3_sC_9.jpg",
-        "img/al_p3_sC_10.jpg",
-        "img/al_p3_sC_11.jpg",
-        "img/al_p3_sC_12.jpg",
-        "img/al_p3_sC_13.jpg"
-      ]
+    "category": "AL",
+    "subject": "9702 Physics",
+    "paper": "Paper 3 (FOA2)",
+    "fullMark": 40,
+    "msImages": [
+      "img/al_p3_ms_1.jpg",
+      "img/al_p3_ms_2.jpg",
+      "img/al_p3_ms_3.jpg",
+      "img/al_p3_ms_4.jpg",
+      "img/al_p3_ms_5.jpg",
+      "img/al_p3_ms_6.jpg",
+      "img/al_p3_ms_7.jpg",
+      "img/al_p3_ms_8.jpg"
+    ],
+    "scripts": {
+      "C": {
+        "prefix": "al_p3_sC",
+        "pages": 13,
+        "images": [
+          "img/al_p3_sC_1.jpg",
+          "img/al_p3_sC_2.jpg",
+          "img/al_p3_sC_3.jpg",
+          "img/al_p3_sC_4.jpg",
+          "img/al_p3_sC_5.jpg",
+          "img/al_p3_sC_6.jpg",
+          "img/al_p3_sC_7.jpg",
+          "img/al_p3_sC_8.jpg",
+          "img/al_p3_sC_9.jpg",
+          "img/al_p3_sC_10.jpg",
+          "img/al_p3_sC_11.jpg",
+          "img/al_p3_sC_12.jpg",
+          "img/al_p3_sC_13.jpg"
+        ]
+      },
+      "D": {
+        "prefix": "al_p3_sD",
+        "pages": 13,
+        "images": [
+          "img/al_p3_sD_1.jpg",
+          "img/al_p3_sD_2.jpg",
+          "img/al_p3_sD_3.jpg",
+          "img/al_p3_sD_4.jpg",
+          "img/al_p3_sD_5.jpg",
+          "img/al_p3_sD_6.jpg",
+          "img/al_p3_sD_7.jpg",
+          "img/al_p3_sD_8.jpg",
+          "img/al_p3_sD_9.jpg",
+          "img/al_p3_sD_10.jpg",
+          "img/al_p3_sD_11.jpg",
+          "img/al_p3_sD_12.jpg",
+          "img/al_p3_sD_13.jpg"
+        ]
+      }
     },
-    "D": {
-      "prefix": "al_p3_sD",
-      "pages": 13,
-      "images": [
-        "img/al_p3_sD_1.jpg",
-        "img/al_p3_sD_2.jpg",
-        "img/al_p3_sD_3.jpg",
-        "img/al_p3_sD_4.jpg",
-        "img/al_p3_sD_5.jpg",
-        "img/al_p3_sD_6.jpg",
-        "img/al_p3_sD_7.jpg",
-        "img/al_p3_sD_8.jpg",
-        "img/al_p3_sD_9.jpg",
-        "img/al_p3_sD_10.jpg",
-        "img/al_p3_sD_11.jpg",
-        "img/al_p3_sD_12.jpg",
-        "img/al_p3_sD_13.jpg"
-      ]
+    "hasFb": true,
+    "feedback": {
+      "C": {
+        "totalMark": 25,
+        "questions": [
+          {
+            "label": "1(a)(i)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "F was given to the nearest mm and within required range."
+          },
+          {
+            "label": "1(a)(ii)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Measurements of a and b taken, unit included (no unit shown in answer space)."
+          },
+          {
+            "label": "1(a)(iii)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "y found correctly."
+          },
+          {
+            "label": "1(b) readings",
+            "officialMark": 4,
+            "maxMark": 4,
+            "commentary": "Six sets of readings (h, a, b, y) correct; trend noted (b and y decrease as h increases)."
+          },
+          {
+            "label": "1(b) range",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Range of h insufficient (h_max ≥ 18 cm needed, but shown range too small). Equipment should be used to obtain wider range."
+          },
+          {
+            "label": "1(b) columns",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Column headings present with appropriate units and acceptable convention."
+          },
+          {
+            "label": "1(b) consistency",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "All readings to nearest mm, full consistency."
+          },
+          {
+            "label": "1(c)(i) scales",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Scales chosen for straightforward interpolation; range half available grid space; axes labelled, sufficient markings."
+          },
+          {
+            "label": "1(c)(i) plotting",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Observations plotted using clearly visible points in circles, accurately placed on grid."
+          },
+          {
+            "label": "1(c)(i) line",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Gradient negative; no points >0.5 cm from line in y-direction."
+          },
+          {
+            "label": "1(c)(ii)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Line of best fit not good enough — two points off left, none off right."
+          },
+          {
+            "label": "1(c)(iii)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Sign of gradient correct, method correct (Δy/Δx), but coordinates of points used not specified. Also gradient value given to only 1 sf."
+          },
+          {
+            "label": "1(d) P&Q",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "P identified as gradient and Q as y-intercept, but value of P only given to 1 sf, which negates the mark."
+          },
+          {
+            "label": "1(d) units",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Units are correct for both (no unit for P, cm for Q)."
+          },
+          {
+            "label": "1(e) value",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Value of ρ found using right numbers, using original value of F. Unit is correct."
+          },
+          {
+            "label": "1(e) sf",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "ρ given to a satisfactory number of significant figures."
+          },
+          {
+            "label": "2(a)(i)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "The value measured for d is given to the nearest mm."
+          },
+          {
+            "label": "2(a)(ii) repeats",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "There is only one value shown, meaning there have been no repeat readings for d."
+          },
+          {
+            "label": "2(a)(ii) uncertainty",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "An absolute uncertainty of ±1 mm has been used, which is outside the acceptable range."
+          },
+          {
+            "label": "2(b) n",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "n = 1 is correct."
+          },
+          {
+            "label": "2(b) T",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Final value for T is within the required range, correct unit included, value given to 4 significant figures."
+          },
+          {
+            "label": "2(b) oscillations",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "There are two measurements in all, each for 10 oscillations."
+          },
+          {
+            "label": "2(c) ratio",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "The second d / first d = 0.80 which is outside the required range."
+          },
+          {
+            "label": "2(c) T2",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Second value for T found same way as first, within required range, correct unit, appropriate sig figs."
+          },
+          {
+            "label": "2(c) trend",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "The second T is shorter than the first T, which is not what is expected."
+          },
+          {
+            "label": "2(d)(i)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Two values of k calculated correctly from given formula and data gained during the experiment."
+          },
+          {
+            "label": "2(d)(ii)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Sensible justification for the number of significant figures used in k values, based on SF used in d and T."
+          },
+          {
+            "label": "2(e)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Candidate intended to add calculated uncertainty to original k value but subtracted instead. Awarded benefit of doubt mark since incorrect values dealt with correctly."
+          },
+          {
+            "label": "2(f)(i)",
+            "officialMark": 1,
+            "maxMark": 4,
+            "commentary": "First suggestion is an appropriate comment with reason for varying d readings. Second suggestion lacks explanation of why two readings are insufficient. Third is true but irrelevant. Fourth is not the case — T does not depend on initial displacement."
+          },
+          {
+            "label": "2(f)(ii)",
+            "officialMark": 0,
+            "maxMark": 4,
+            "commentary": "First suggestion just states what was done anyway. Second lacks indication of how additional readings would be used. Third: mass of clay not relevant. Fourth similar to second."
+          }
+        ]
+      },
+      "D": {
+        "totalMark": 34,
+        "questions": [
+          {
+            "label": "1(a)(i)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "The value of F has been given to the nearest mm and is within the required range."
+          },
+          {
+            "label": "1(a)(ii) a&b",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Values of a and b measured and given to the nearest mm. Unit included as required."
+          },
+          {
+            "label": "1(a)(ii) y",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "The value of y has been found correctly."
+          },
+          {
+            "label": "1(b) readings",
+            "officialMark": 4,
+            "maxMark": 4,
+            "commentary": "More than six sets of readings, all measurements required shown (h, a, b, y), trend correct — as h increases, b and y decrease."
+          },
+          {
+            "label": "1(b) range",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Range of h insufficient — h_MAX ≥ 18 cm needed but range shown is much less."
+          },
+          {
+            "label": "1(b) columns",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Column headings all present, with appropriate unit, shown using acceptable convention."
+          },
+          {
+            "label": "1(b) consistency",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "All readings in all columns shown to the nearest mm, full consistency."
+          },
+          {
+            "label": "1(c)(i) scales",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Scales chosen to be straightforward to interpolate, range more than half available grid space in both directions, both axes labelled with sufficient scale markings."
+          },
+          {
+            "label": "1(c)(i) plotting",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "All observations plotted using crosses, all placed accurately on the grid."
+          },
+          {
+            "label": "1(c)(ii)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Correct gradient sign, point distances, line thickness, and lack of kinking."
+          },
+          {
+            "label": "1(c)(iii)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Gradient calculation incorrect due to misreading y-value (3.8 instead of 2.8), though method (Δy/Δx) and sign were correct."
+          },
+          {
+            "label": "1(c)(iv)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "y-intercept found correctly using y = mx + c. Misread point treated as ECF, so result accepted."
+          },
+          {
+            "label": "1(d)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "P (gradient) and Q (y-intercept) shown correctly with appropriate units (no unit for P, cm for Q)."
+          },
+          {
+            "label": "1(e)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "ρ calculated correctly using proper numbers and original F value. Unit and significant figures acceptable."
+          },
+          {
+            "label": "2(a)(i)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "d values given to the nearest mm."
+          },
+          {
+            "label": "2(a)(ii)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Three repeat readings for d; absolute uncertainty of 2 mm used correctly."
+          },
+          {
+            "label": "2(b)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Final T within required range, correct unit, 2 significant figures. Three measurements, each for 10 oscillations."
+          },
+          {
+            "label": "2(c)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Second d/first d = 0.90, within required range. Second T found same way as first, correct unit, appropriate sig figs. Second T longer as expected."
+          },
+          {
+            "label": "2(d)(i)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "k values calculated correctly from formula and data. Incorrect working shown in second calculation but mark awarded assuming candidate corrected error."
+          },
+          {
+            "label": "2(d)(ii)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Answer hints at correct idea, but lacks specification that raw data (d and T) used to calculate k must be explicitly stated."
+          },
+          {
+            "label": "2(e)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Candidate calculated incorrect percentage difference between two k values, but used it correctly and compared with 20%. Conclusion consistent with calculation."
+          },
+          {
+            "label": "2(f)(i)",
+            "officialMark": 2,
+            "maxMark": 4,
+            "commentary": "First two suggestions are satisfactorily explained. Third: mass of putty not relevant to experiment. Fourth: needs indication of why high uncertainty in measurement of d."
+          },
+          {
+            "label": "2(f)(ii)",
+            "officialMark": 3,
+            "maxMark": 4,
+            "commentary": "Good suggestion for improving measurement of d, and numbers 1 and 2 are sensible. But number 3 refers to mass of putty, which is not relevant."
+          }
+        ]
+      }
     }
   },
-  "hasFb": true,
-  "feedback": {
-    "C": {
-      "totalMark": 25,
-      "questions": [
-        {
-          "label": "1(a)(i)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "F was given to the nearest mm and within required range."
-        },
-        {
-          "label": "1(a)(ii)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Measurements of a and b taken, unit included (no unit shown in answer space)."
-        },
-        {
-          "label": "1(a)(iii)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "y found correctly."
-        },
-        {
-          "label": "1(b) readings",
-          "officialMark": 4,
-          "maxMark": 4,
-          "commentary": "Six sets of readings (h, a, b, y) correct; trend noted (b and y decrease as h increases)."
-        },
-        {
-          "label": "1(b) range",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Range of h insufficient (h_max ≥ 18 cm needed, but shown range too small). Equipment should be used to obtain wider range."
-        },
-        {
-          "label": "1(b) columns",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Column headings present with appropriate units and acceptable convention."
-        },
-        {
-          "label": "1(b) consistency",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "All readings to nearest mm, full consistency."
-        },
-        {
-          "label": "1(c)(i) scales",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Scales chosen for straightforward interpolation; range half available grid space; axes labelled, sufficient markings."
-        },
-        {
-          "label": "1(c)(i) plotting",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Observations plotted using clearly visible points in circles, accurately placed on grid."
-        },
-        {
-          "label": "1(c)(i) line",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Gradient negative; no points >0.5 cm from line in y-direction."
-        },
-        {
-          "label": "1(c)(ii)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Line of best fit not good enough — two points off left, none off right."
-        },
-        {
-          "label": "1(c)(iii)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Sign of gradient correct, method correct (Δy/Δx), but coordinates of points used not specified. Also gradient value given to only 1 sf."
-        },
-        {
-          "label": "1(d) P&Q",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "P identified as gradient and Q as y-intercept, but value of P only given to 1 sf, which negates the mark."
-        },
-        {
-          "label": "1(d) units",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Units are correct for both (no unit for P, cm for Q)."
-        },
-        {
-          "label": "1(e) value",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Value of ρ found using right numbers, using original value of F. Unit is correct."
-        },
-        {
-          "label": "1(e) sf",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "ρ given to a satisfactory number of significant figures."
-        },
-        {
-          "label": "2(a)(i)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "The value measured for d is given to the nearest mm."
-        },
-        {
-          "label": "2(a)(ii) repeats",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "There is only one value shown, meaning there have been no repeat readings for d."
-        },
-        {
-          "label": "2(a)(ii) uncertainty",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "An absolute uncertainty of ±1 mm has been used, which is outside the acceptable range."
-        },
-        {
-          "label": "2(b) n",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "n = 1 is correct."
-        },
-        {
-          "label": "2(b) T",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Final value for T is within the required range, correct unit included, value given to 4 significant figures."
-        },
-        {
-          "label": "2(b) oscillations",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "There are two measurements in all, each for 10 oscillations."
-        },
-        {
-          "label": "2(c) ratio",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "The second d / first d = 0.80 which is outside the required range."
-        },
-        {
-          "label": "2(c) T2",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Second value for T found same way as first, within required range, correct unit, appropriate sig figs."
-        },
-        {
-          "label": "2(c) trend",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "The second T is shorter than the first T, which is not what is expected."
-        },
-        {
-          "label": "2(d)(i)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Two values of k calculated correctly from given formula and data gained during the experiment."
-        },
-        {
-          "label": "2(d)(ii)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Sensible justification for the number of significant figures used in k values, based on SF used in d and T."
-        },
-        {
-          "label": "2(e)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Candidate intended to add calculated uncertainty to original k value but subtracted instead. Awarded benefit of doubt mark since incorrect values dealt with correctly."
-        },
-        {
-          "label": "2(f)(i)",
-          "officialMark": 1,
-          "maxMark": 4,
-          "commentary": "First suggestion is an appropriate comment with reason for varying d readings. Second suggestion lacks explanation of why two readings are insufficient. Third is true but irrelevant. Fourth is not the case — T does not depend on initial displacement."
-        },
-        {
-          "label": "2(f)(ii)",
-          "officialMark": 0,
-          "maxMark": 4,
-          "commentary": "First suggestion just states what was done anyway. Second lacks indication of how additional readings would be used. Third: mass of clay not relevant. Fourth similar to second."
-        }
-      ]
-    },
-    "D": {
-      "totalMark": 34,
-      "questions": [
-        {
-          "label": "1(a)(i)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "The value of F has been given to the nearest mm and is within the required range."
-        },
-        {
-          "label": "1(a)(ii) a&b",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Values of a and b measured and given to the nearest mm. Unit included as required."
-        },
-        {
-          "label": "1(a)(ii) y",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "The value of y has been found correctly."
-        },
-        {
-          "label": "1(b) readings",
-          "officialMark": 4,
-          "maxMark": 4,
-          "commentary": "More than six sets of readings, all measurements required shown (h, a, b, y), trend correct — as h increases, b and y decrease."
-        },
-        {
-          "label": "1(b) range",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Range of h insufficient — h_MAX ≥ 18 cm needed but range shown is much less."
-        },
-        {
-          "label": "1(b) columns",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Column headings all present, with appropriate unit, shown using acceptable convention."
-        },
-        {
-          "label": "1(b) consistency",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "All readings in all columns shown to the nearest mm, full consistency."
-        },
-        {
-          "label": "1(c)(i) scales",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Scales chosen to be straightforward to interpolate, range more than half available grid space in both directions, both axes labelled with sufficient scale markings."
-        },
-        {
-          "label": "1(c)(i) plotting",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "All observations plotted using crosses, all placed accurately on the grid."
-        },
-        {
-          "label": "1(c)(ii)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Correct gradient sign, point distances, line thickness, and lack of kinking."
-        },
-        {
-          "label": "1(c)(iii)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Gradient calculation incorrect due to misreading y-value (3.8 instead of 2.8), though method (Δy/Δx) and sign were correct."
-        },
-        {
-          "label": "1(c)(iv)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "y-intercept found correctly using y = mx + c. Misread point treated as ECF, so result accepted."
-        },
-        {
-          "label": "1(d)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "P (gradient) and Q (y-intercept) shown correctly with appropriate units (no unit for P, cm for Q)."
-        },
-        {
-          "label": "1(e)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "ρ calculated correctly using proper numbers and original F value. Unit and significant figures acceptable."
-        },
-        {
-          "label": "2(a)(i)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "d values given to the nearest mm."
-        },
-        {
-          "label": "2(a)(ii)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Three repeat readings for d; absolute uncertainty of 2 mm used correctly."
-        },
-        {
-          "label": "2(b)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Final T within required range, correct unit, 2 significant figures. Three measurements, each for 10 oscillations."
-        },
-        {
-          "label": "2(c)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Second d/first d = 0.90, within required range. Second T found same way as first, correct unit, appropriate sig figs. Second T longer as expected."
-        },
-        {
-          "label": "2(d)(i)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "k values calculated correctly from formula and data. Incorrect working shown in second calculation but mark awarded assuming candidate corrected error."
-        },
-        {
-          "label": "2(d)(ii)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Answer hints at correct idea, but lacks specification that raw data (d and T) used to calculate k must be explicitly stated."
-        },
-        {
-          "label": "2(e)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Candidate calculated incorrect percentage difference between two k values, but used it correctly and compared with 20%. Conclusion consistent with calculation."
-        },
-        {
-          "label": "2(f)(i)",
-          "officialMark": 2,
-          "maxMark": 4,
-          "commentary": "First two suggestions are satisfactorily explained. Third: mass of putty not relevant to experiment. Fourth: needs indication of why high uncertainty in measurement of d."
-        },
-        {
-          "label": "2(f)(ii)",
-          "officialMark": 3,
-          "maxMark": 4,
-          "commentary": "Good suggestion for improving measurement of d, and numbers 1 and 2 are sensible. But number 3 refers to mass of putty, which is not relevant."
-        }
-      ]
-    }
-  }
-},
   "al_p5": {
-  "category": "AL",
-  "subject": "9702 Physics",
-  "paper": "Paper 5 (FOA2)",
-  "fullMark": 30,
-  "msImages": [
-    "img/al_p5_ms_1.jpg",
-    "img/al_p5_ms_2.jpg",
-    "img/al_p5_ms_3.jpg",
-    "img/al_p5_ms_4.jpg",
-    "img/al_p5_ms_5.jpg",
-    "img/al_p5_ms_6.jpg",
-    "img/al_p5_ms_7.jpg",
-    "img/al_p5_ms_8.jpg",
-    "img/al_p5_ms_9.jpg",
-    "img/al_p5_ms_10.jpg"
-  ],
-  "scripts": {
-    "G": {
-      "prefix": "al_p5_sG",
-      "pages": 7,
-      "images": [
-        "img/al_p5_sG_1.jpg",
-        "img/al_p5_sG_2.jpg",
-        "img/al_p5_sG_3.jpg",
-        "img/al_p5_sG_4.jpg",
-        "img/al_p5_sG_5.jpg",
-        "img/al_p5_sG_6.jpg",
-        "img/al_p5_sG_7.jpg"
-      ]
-    }
-  },
-  "hasFb": true,
-  "feedback": {
-    "G": {
-      "totalMark": 27,
-      "questions": [
-        {
-          "label": "1-P",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Candidate correctly identified dependent and independent variables and stated that d must be constant (and m and B must be constant — an extra detail)."
-        },
-        {
-          "label": "1-M diagram",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Clear, well-labelled diagram. Set-up described with clamps, light-gates at X and front of trolley, support, and position X labelled."
-        },
-        {
-          "label": "1-M connections",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Light gates connected to data logger."
-        },
-        {
-          "label": "1-M timing",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "No indication of how t₁ and t₂ are measured — missing card timing method."
-        },
-        {
-          "label": "1-M angle",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Protractor used to measure angle θ."
-        },
-        {
-          "label": "1-A graph",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Correct graph choice (v² vs sin θ)."
-        },
-        {
-          "label": "1-A p&q",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Sensible methods for finding p and q using gradient and y-intercept."
-        },
-        {
-          "label": "1-D1",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Soft barrier at ramp bottom to stop trolley after light gates."
-        },
-        {
-          "label": "1-D2",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "B and m kept constant throughout."
-        },
-        {
-          "label": "1-D3",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Ruler used to measure d."
-        },
-        {
-          "label": "1-D4",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Method to keep d constant via marks on ramp."
-        },
-        {
-          "label": "1-D5",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Appropriate methods for measuring m and B described."
-        },
-        {
-          "label": "1-D10",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "This additional detail point was not addressed satisfactorily."
-        },
-        {
-          "label": "2(a)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Correct expression for gradient."
-        },
-        {
-          "label": "2(b)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Values of 1/R consistent and given to appropriate significant figures. Absolute uncertainties in acceptable range."
-        },
-        {
-          "label": "2(c)(i) points",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "All six data points plotted correctly with appropriate point size."
-        },
-        {
-          "label": "2(c)(i) error bars",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "All error bars in 1/R plotted, all correct length."
-        },
-        {
-          "label": "2(c)(ii) best fit",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Line of best fit drawn with acceptable balance of points."
-        },
-        {
-          "label": "2(c)(ii) worst line",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Worst acceptable line drawn (steepest, passing through all error bars)."
-        },
-        {
-          "label": "2(c)(iii) gradient",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Incorrect gradient calculation due to omission of 10⁻³ factor and insufficient line length."
-        },
-        {
-          "label": "2(c)(iii) worst gradient",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Gradient of worst acceptable line found correctly. Same mistake as previous section not penalised twice."
-        },
-        {
-          "label": "2(d)",
-          "officialMark": 0,
-          "maxMark": 1,
-          "commentary": "Average frequency correct but absolute uncertainty incorrect."
-        },
-        {
-          "label": "2(e)(i)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Value of C determined correctly to 2 sig figs using corrected gradient and f from part d). Correction of power of ten in gradient."
-        },
-        {
-          "label": "2(e)(ii)",
-          "officialMark": 1,
-          "maxMark": 1,
-          "commentary": "Percentage uncertainty in C found using correct method. Answer correct according to candidate’s data."
-        },
-        {
-          "label": "2(f)",
-          "officialMark": 2,
-          "maxMark": 2,
-          "commentary": "Correct determination of the new value of R, with its uncertainty."
-        }
-      ]
+    "category": "AL",
+    "subject": "9702 Physics",
+    "paper": "Paper 5 (FOA2)",
+    "fullMark": 30,
+    "msImages": [
+      "img/al_p5_ms_1.jpg",
+      "img/al_p5_ms_2.jpg",
+      "img/al_p5_ms_3.jpg",
+      "img/al_p5_ms_4.jpg",
+      "img/al_p5_ms_5.jpg",
+      "img/al_p5_ms_6.jpg",
+      "img/al_p5_ms_7.jpg",
+      "img/al_p5_ms_8.jpg",
+      "img/al_p5_ms_9.jpg",
+      "img/al_p5_ms_10.jpg"
+    ],
+    "scripts": {
+      "G": {
+        "prefix": "al_p5_sG",
+        "pages": 7,
+        "images": [
+          "img/al_p5_sG_1.jpg",
+          "img/al_p5_sG_2.jpg",
+          "img/al_p5_sG_3.jpg",
+          "img/al_p5_sG_4.jpg",
+          "img/al_p5_sG_5.jpg",
+          "img/al_p5_sG_6.jpg",
+          "img/al_p5_sG_7.jpg"
+        ]
+      }
+    },
+    "hasFb": true,
+    "feedback": {
+      "G": {
+        "totalMark": 27,
+        "questions": [
+          {
+            "label": "1-P",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Candidate correctly identified dependent and independent variables and stated that d must be constant (and m and B must be constant — an extra detail)."
+          },
+          {
+            "label": "1-M diagram",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Clear, well-labelled diagram. Set-up described with clamps, light-gates at X and front of trolley, support, and position X labelled."
+          },
+          {
+            "label": "1-M connections",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Light gates connected to data logger."
+          },
+          {
+            "label": "1-M timing",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "No indication of how t₁ and t₂ are measured — missing card timing method."
+          },
+          {
+            "label": "1-M angle",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Protractor used to measure angle θ."
+          },
+          {
+            "label": "1-A graph",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Correct graph choice (v² vs sin θ)."
+          },
+          {
+            "label": "1-A p&q",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Sensible methods for finding p and q using gradient and y-intercept."
+          },
+          {
+            "label": "1-D1",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Soft barrier at ramp bottom to stop trolley after light gates."
+          },
+          {
+            "label": "1-D2",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "B and m kept constant throughout."
+          },
+          {
+            "label": "1-D3",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Ruler used to measure d."
+          },
+          {
+            "label": "1-D4",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Method to keep d constant via marks on ramp."
+          },
+          {
+            "label": "1-D5",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Appropriate methods for measuring m and B described."
+          },
+          {
+            "label": "1-D10",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "This additional detail point was not addressed satisfactorily."
+          },
+          {
+            "label": "2(a)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Correct expression for gradient."
+          },
+          {
+            "label": "2(b)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Values of 1/R consistent and given to appropriate significant figures. Absolute uncertainties in acceptable range."
+          },
+          {
+            "label": "2(c)(i) points",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "All six data points plotted correctly with appropriate point size."
+          },
+          {
+            "label": "2(c)(i) error bars",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "All error bars in 1/R plotted, all correct length."
+          },
+          {
+            "label": "2(c)(ii) best fit",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Line of best fit drawn with acceptable balance of points."
+          },
+          {
+            "label": "2(c)(ii) worst line",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Worst acceptable line drawn (steepest, passing through all error bars)."
+          },
+          {
+            "label": "2(c)(iii) gradient",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Incorrect gradient calculation due to omission of 10⁻³ factor and insufficient line length."
+          },
+          {
+            "label": "2(c)(iii) worst gradient",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Gradient of worst acceptable line found correctly. Same mistake as previous section not penalised twice."
+          },
+          {
+            "label": "2(d)",
+            "officialMark": 0,
+            "maxMark": 1,
+            "commentary": "Average frequency correct but absolute uncertainty incorrect."
+          },
+          {
+            "label": "2(e)(i)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Value of C determined correctly to 2 sig figs using corrected gradient and f from part d). Correction of power of ten in gradient."
+          },
+          {
+            "label": "2(e)(ii)",
+            "officialMark": 1,
+            "maxMark": 1,
+            "commentary": "Percentage uncertainty in C found using correct method. Answer correct according to candidate’s data."
+          },
+          {
+            "label": "2(f)",
+            "officialMark": 2,
+            "maxMark": 2,
+            "commentary": "Correct determination of the new value of R, with its uncertainty."
+          }
+        ]
+      }
     }
   }
-}
 };
