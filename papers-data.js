@@ -2,7 +2,7 @@ var PAPERS = {
   "ig_p41": {
     "category": "IG",
     "subject": "0625 Physics",
-    "paper": "Paper 41",
+    "paper": "0625/41/M/J/23",
     "fullMark": 80,
     "msImages": [
       "img/ig_p41_ms_1.jpg",
@@ -1085,7 +1085,7 @@ var PAPERS = {
   "ig_p61": {
     "category": "IG",
     "subject": "0625 Physics",
-    "paper": "Paper 61",
+    "paper": "0625/61/M/J/23",
     "fullMark": 40,
     "msImages": [
       "img/ig_p61_ms_1.jpg",
@@ -1771,7 +1771,7 @@ var PAPERS = {
   "al2_p21": {
     "category": "AL",
     "subject": "9702 Physics",
-    "paper": "Paper 21",
+    "paper": "9702/21/M/J/22",
     "fullMark": 60,
     "msImages": [
       "img/al2_p21_ms_1.jpg",
@@ -2015,7 +2015,7 @@ var PAPERS = {
   "al2_p31": {
     "category": "AL",
     "subject": "9702 Physics",
-    "paper": "Paper 31",
+    "paper": "9702/31/M/J/22",
     "fullMark": 40,
     "msImages": [
       "img/al2_p31_ms_1.jpg",
@@ -2169,7 +2169,7 @@ var PAPERS = {
   "al2_p42": {
     "category": "AL",
     "subject": "9702 Physics",
-    "paper": "Paper 42",
+    "paper": "9702/42/M/J/22",
     "fullMark": 100,
     "msImages": [
       "img/al2_p42_ms_1.jpg",
@@ -2526,7 +2526,7 @@ var PAPERS = {
   "al2_p51": {
     "category": "AL",
     "subject": "9702 Physics",
-    "paper": "Paper 51",
+    "paper": "9702/51/M/J/22",
     "fullMark": 30,
     "msImages": [
       "img/al2_p51_ms_1.jpg",
@@ -2615,7 +2615,7 @@ var PAPERS = {
   "al_p2": {
     "category": "AL",
     "subject": "9702 Physics",
-    "paper": "Paper 2 (FOA2)",
+    "paper": "9702/22/F/M/22",
     "fullMark": 60,
     "msImages": [
       "img/al_p2_ms_1.jpg",
@@ -3136,7 +3136,7 @@ var PAPERS = {
   "al_p3": {
     "category": "AL",
     "subject": "9702 Physics",
-    "paper": "Paper 3 (FOA2)",
+    "paper": "9702/33/F/M/22",
     "fullMark": 40,
     "msImages": [
       "img/al_p3_ms_1.jpg",
@@ -3523,7 +3523,7 @@ var PAPERS = {
   "al_p5": {
     "category": "AL",
     "subject": "9702 Physics",
-    "paper": "Paper 5 (FOA2)",
+    "paper": "9702/52/F/M/22",
     "fullMark": 30,
     "msImages": [
       "img/al_p5_ms_1.jpg",

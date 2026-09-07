@@ -99,7 +99,7 @@ function showSelectionPage() {
 }
 
 function extractPaperNum(paperStr) {
-  var m = paperStr.match(/Paper\s*(\d)/);
+  var m = paperStr.match(/Paper\s*(\d)/) || paperStr.match(/^\d+\/(\d)/);
   return m ? m[1] : '?';
 }
 
@@ -233,7 +233,7 @@ function renderSubjectContent(subjName) {
       for (var pi = 0; pi < papers.length; pi++) {
         var p = papers[pi];
         html += '<div class="paper-card">';
-        html += '<h3>' + p.subject + ' - ' + p.paper + '</h3>';
+        html += '<h3>' + p.paper + '</h3>';
         html += '<div class="paper-sub">Full mark: ' + p.fullMark + ' | Scripts: ' + Object.keys(p.scripts).join(', ') + '</div>';
         html += renderScriptButtons(p);
         html += '</div>';
@@ -480,7 +480,7 @@ function startMarking(paperKey, scriptId) {
 
   hideAll();
   document.getElementById('markingPage').classList.remove('hidden');
-  document.getElementById('markingTitle').textContent = `${pinfo.subject} ${pinfo.paper} - Script ${scriptId}`;
+  document.getElementById('markingTitle').textContent = `${pinfo.paper} - Script ${scriptId}`;
   document.getElementById('markingUserInfo').textContent = currentUser;
   document.getElementById('fullMark').textContent = pinfo.fullMark;
 
@@ -794,7 +794,7 @@ function showResults(saveData, mismatches, fbQuestions) {
 
   // Right panel: summary + mismatched questions with feedback
   let html = `<div class="results-summary">`;
-  html += `<h2 style="font-size:16px;margin-bottom:4px;">${pinfo.subject} ${pinfo.paper} - Script ${saveData.script}</h2>`;
+  html += `<h2 style="font-size:16px;margin-bottom:4px;">${pinfo.paper} - Script ${saveData.script}</h2>`;
   html += `<div class="big-score">${saveData.myTotal} / ${saveData.fullMark}</div>`;
   html += `<div class="score-detail">Your mark: ${saveData.myTotal}`;
   if (saveData.officialTotal !== null && saveData.officialTotal !== undefined) {
